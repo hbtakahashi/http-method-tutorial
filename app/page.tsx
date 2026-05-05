@@ -62,6 +62,8 @@ export default function TodoPage() {
     setTimeout(() => setFlash(null), 2000);
   };
 
+  // ここまでコードリーディングをした 26/05/05/16:04
+
   // POST: 追加
   const handleAdd = async () => {
     const title = input.trim();
